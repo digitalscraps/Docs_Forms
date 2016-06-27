@@ -41,3 +41,7 @@ min-height: 200px;
   background-color: lightgray;
   text-align: left;
 }
+
+.tkimage {
+  max width: 200px;
+}
