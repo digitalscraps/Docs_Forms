@@ -10,8 +10,6 @@
 </head>
 <body>
 
-<div class="container-fluid">
-
 <!--Global Header-->
 <header class="globalheader">
       <h2>Intranet</h2>
@@ -35,62 +33,69 @@
   </div>
   </div>
 </div>
+
+
 <!--Title-->
-<div class="title">
+<div class="title container">
     <div class="row">
-      <div class="col-md-12">
+      <header class="col-md-12" id="title">
         <h1>Docs and Forms Page</h1>
       </div>
-      <div class="col-md-3">
+      <button class="col-md-3" id="collections">
         <p>Collections</p>
-      </div>
-      <div class="col-md-3">
+      </button>
+      <button class="col-md-3" id="tools">
         <p>Tools</p>
-      </div>
-      <div class="col-md-3">
+      </button>
+      <button class="col-md-3" id="how-to">
         <p>How-To</p>
+      </button>
+      <button class="col-md-3" id="upload">
+        <p>Upload</p>
       </div>
-      <div class="col-md-3">
-        <p>Stuff</p>
-      </div>
-      </div>
-    </div>
+  </div><!--row-->
+</div> <!--Title Container-->
 
+<!--Begin Two Coloumn Layout-->
+
+<div class="content container">
+  <div class="row">
+    <div class="col-md-6" "col-lg-6">
 
 <!--Search and Upload-->
-<div class="search">
+  <div class="search container">
   <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" "col-lg-4" id="search">
         <h1>Search</h1>
       </div>
       <div>
-        <div class="col-md-4">
+        <button class="col-md-4" "col-lg-4" id="filter">
           <p>filter</p>
-        </div>
-        <div class="col-md-4">
+        </button>
+        <button class="col-md-4" "col-lg-4" id="filter2">
           <p>filter</p>
-        </div>
+        </button>
       </div>
-  </div>
-</div>
+  </div><!--row-->
+</div> <!--search container-->
+
 
 <!--Recently Added-->
-<div class="recentlyadded">
-  <div class="row">
-  <div class="col-md-8" "col-lg-8">
-    <p>Lorem ipsum dolor sit amet, mea id possit epicuri abhorreant, equidem nominati est cu, eum legere volumus an. Cum cu rebum doming constituam, nostro voluptatum vim id,
+  <div class="recent container">
+    <div class="row">
+    <div class="col-md-6" "col-lg-6">
+      <p>Lorem ipsum dolor sit amet, mea id possit epicuri abhorreant, equidem nominati est cu, eum legere volumus an. Cum cu rebum doming constituam, nostro voluptatum vim id,
       alterum explicari vituperata eum in. Ad interesset interpretaris nam, numquam scriptorem id per. His ad tation libris, inani laudem dicunt mei eu. Ad qui vero tation,
       delenit accusata repudiandae ne cum. Labore option efficiendi eu mei, ut est latine facilis habemus. Ius dicit soleat docendi id, id qui mutat noluisse tractatos.
-      Est reque error id. No eum sale maluisset urbanitas, tollit albucius lobortis nam et. Cibo etiam deseruisse qui eu. Quas utroque mea id, nam eu enim persius intellegam.
-      Sit lobortis tincidunt dissentiet cu. Fugit timeam utamur cum no, vel utamur scaevola ei, enim porro ne pri. Principes scripserit te mel, et mea phaedrum lobortis,
-      quod dictas suscipiantur et cum. No tractatos urbanitas duo, mea novum clita necessitatibus at, dicat partiendo expetendis mea cu. Ea vivendo phaedrum sit, etiam dolor an per.
-      Cu assum principes ius, imperdiet conclusionemque cu sit, nec omnesque definiebas ei. Te ius alii propriae torquatos, nihil quodsi labores sit ut</p>
-  </div>
-
+      Est reque error id. No eum sale maluisset urbanitas, tollit albucius lobortis nam et. Cibo etiam deseruisse qui eu.</p>
+  </div> <!--column-->
+  </div><!--row-->
+</div><!--recent container-->
+</div><!--column search and recent-->
 
 <!--Toolkits-->
-<div class="toolkit">
-  <div class="col-md-2">
+<div class="toolkit container">
+  <div class="col-md-offset-2" "col-md-2" "col-lg-2">
   <h2>Toolkits</h2>
     <div class="row">
       <section class="col-md-12">
@@ -107,10 +112,10 @@
           <h3>Toolkit3</h3>
           <p>How to log your hours for HR</p>
       </section>
-</div>
-</div>
-</div>
-</div>
+</div><!--row-->
+</div><!--column toolkit-->
+</div><!--toolkit container-->
+</div> <!--row of search and toolkit-->
 
 <!--Collections-->
   <div class="collections">
@@ -135,7 +140,6 @@
 </div>
 
 
-</div>
 </div>
 
 
