@@ -1,0 +1,47 @@
+.globalheader {
+  background-color: gray;
+  text-align: center;
+}
+
+.globalnav{
+background-color: darkgray;
+}
+
+.layout {
+  font-family: monospace;
+}
+
+.breadcrumbs {
+background-color: lightblue;
+}
+
+.title {
+background-color: lightpink;
+}
+
+.search {
+background-color: lightyellow;
+}
+
+.collections {
+background-color: lightblue;
+}
+
+.collections section {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.toolkit {
+background-color: lavender;
+min-height: 200px;
+}
+
+.toolkit section {
+  background-color: lightgray;
+  text-align: left;
+}
+
+.tkimage {
+  max width: 200px;
+}
