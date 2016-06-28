@@ -18,9 +18,8 @@
 
 <!--Global NavBar-->
 <div class="container-fluid" id="globalnav">
-  <div class="container">
   <div class= "row">
-  <div class="col-xs-12">
+  <div class="col-md-12">
       <div class="navlist">
           <li>
             <ul>nav1</ul>
@@ -32,88 +31,85 @@
   </div>
   </div>
   </div>
-</div>
-
 
 <!--Title-->
 <div class="title container">
     <div class="row">
       <header class="col-md-12" id="title">
         <h1>Docs and Forms Page</h1>
-      </div>
-      <button class="col-md-3" id="collections">
+      </header>
+    </div> <!--row-->
+      <div class="row">
+      <button class="col-md-3" id="collectionsnav">
         <p>Collections</p>
       </button>
-      <button class="col-md-3" id="tools">
+      <button class="col-md-3" id="toolsnav">
         <p>Tools</p>
       </button>
-      <button class="col-md-3" id="how-to">
+      <button class="col-md-3" id="how-tonav">
         <p>How-To</p>
       </button>
-      <button class="col-md-3" id="upload">
+      <button class="col-md-3" id="uploadnav">
         <p>Upload</p>
-      </div>
-  </div><!--row-->
-</div> <!--Title Container-->
+      </button>
+  </div><!--row title-->
+</div> <!--container title-->
 
 <!--Begin Two Coloumn Layout-->
 
 <section class="content container">
   <div class="row">
-    <div class="col-md-6" "col-lg-6">
+    <div class="col-md-8 col-lg-8">
 
 <!--Search and Upload-->
-  <div class="search">
-  <div class="col-md-4" "col-lg-4" id="search">
-    <h1>Search</h1>
-    <button class="col-md-4" "col-lg-4" id="filter">
+	<section class="col-md-12">
+	<div class="col-md-4">
+    	<h4>Search</h4>
+    </div>
+    <button class="col-md-4 col-lg-4" id="filter1">
       <p>filter</p>
     </button>
-    <button class="col-md-4" "col-lg-4" id="filter2">
+    <button class="col-md-4 col-lg-4" id="filter2">
       <p>filter</p>
     </button>
-</div><!--search column-->
-</div>
+    </section>
 
 
 
 <!--Recently Added-->
-<div class="col-md-6" "col-lg-6" id="recent">
+<div class="col-md-12" id="recent">
       <p>Lorem ipsum dolor sit amet, mea id possit epicuri abhorreant, equidem nominati est cu, eum legere volumus an. Cum cu rebum doming constituam, nostro voluptatum vim id,
       alterum explicari vituperata eum in. Ad interesset interpretaris nam, numquam scriptorem id per. His ad tation libris, inani laudem dicunt mei eu. Ad qui vero tation,
       delenit accusata repudiandae ne cum. Labore option efficiendi eu mei, ut est latine facilis habemus. Ius dicit soleat docendi id, id qui mutat noluisse tractatos.
       Est reque error id. No eum sale maluisset urbanitas, tollit albucius lobortis nam et. Cibo etiam deseruisse qui eu.</p>
-  </div> <!--column-->
-  </div><!--row-->
-</div><!--recent container-->
+  </div> <!--column recent -->
 
+<!--Collections-->
 
-<div class="collections">
+<div class="col-md-12" id="collections">
 <div class="row">
-  <div class="col-md-8">
-    <h2>Collections</h2>
+<h2>Collections</h2>
 <div class="row">
-    <section class="col-md-4">
-    <h2>Featured Documents</h2>
+    <section class="col-md-4" id="featured1">
+    <h4>Featured Documents</h4>
     </section>
 
-  <section class="col-md-4">
-    <h2>Featured Documents</h2>
+  <section class="col-md-4" id="featured2">
+    <h4>Featured Documents</h4>
   </section>
 
-<section class="col-md-4">
-  <h2>Featured Documents</h2>
+<section class="col-md-4" id="featured3">
+  <h4>Featured Documents</h4>
 </section>
-</div>
-</div>
-</div>
-</div>
-</div><!--column search and recent-->
+</div> <!--row featured-->
+</div> <!--row collections-->
+</div> <!--column collection -->
 
+
+</div><!--column search, feature, collections-->
 
 <!--Toolkits-->
-<div class="toolkit">
-  <div class="col-md-offset-2" "col-md-2" "col-lg-2">
+  <div class="col-md-offset-1 col-md-2 col-lg-2" id="toolkits">
   <h2>Toolkits</h2>
     <div class="row">
       <section class="col-md-12">
@@ -130,18 +126,14 @@
           <h3>Toolkit3</h3>
           <p>How to log your hours for HR</p>
       </section>
-</div><!--row-->
-</div><!--column toolkit-->
-</div><!--toolkit container-->
-
-
-</div> <!--content row-->
-</section> <!--content container-->
+  </div> <!--column toolkits-->
+ </div>
+</div>
+</section>
 
 
 </body>
 <script src="js/jquery-2.2.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
-</body>
 </html>
