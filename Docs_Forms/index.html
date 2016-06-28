@@ -11,13 +11,13 @@
 <body>
 
 <!--Global Header-->
-<header class="globalheader">
+<header class="container-fluid" id="globalheader">
       <h2>Intranet</h2>
       <h1>Logo</h1>
 </header>
 
 <!--Global NavBar-->
-<div class="globalnav">
+<div class="container-fluid" id="globalnav">
   <div class="container">
   <div class= "row">
   <div class="col-xs-12">
@@ -58,32 +58,27 @@
 
 <!--Begin Two Coloumn Layout-->
 
-<div class="content container">
+<section class="content container">
   <div class="row">
     <div class="col-md-6" "col-lg-6">
 
 <!--Search and Upload-->
-  <div class="search container">
-  <div class="row">
-      <div class="col-md-4" "col-lg-4" id="search">
-        <h1>Search</h1>
-      </div>
-      <div>
-        <button class="col-md-4" "col-lg-4" id="filter">
-          <p>filter</p>
-        </button>
-        <button class="col-md-4" "col-lg-4" id="filter2">
-          <p>filter</p>
-        </button>
-      </div>
-  </div><!--row-->
-</div> <!--search container-->
+  <div class="search">
+  <div class="col-md-4" "col-lg-4" id="search">
+    <h1>Search</h1>
+    <button class="col-md-4" "col-lg-4" id="filter">
+      <p>filter</p>
+    </button>
+    <button class="col-md-4" "col-lg-4" id="filter2">
+      <p>filter</p>
+    </button>
+</div><!--search column-->
+</div>
+
 
 
 <!--Recently Added-->
-  <div class="recent container">
-    <div class="row">
-    <div class="col-md-6" "col-lg-6">
+<div class="col-md-6" "col-lg-6" id="recent">
       <p>Lorem ipsum dolor sit amet, mea id possit epicuri abhorreant, equidem nominati est cu, eum legere volumus an. Cum cu rebum doming constituam, nostro voluptatum vim id,
       alterum explicari vituperata eum in. Ad interesset interpretaris nam, numquam scriptorem id per. His ad tation libris, inani laudem dicunt mei eu. Ad qui vero tation,
       delenit accusata repudiandae ne cum. Labore option efficiendi eu mei, ut est latine facilis habemus. Ius dicit soleat docendi id, id qui mutat noluisse tractatos.
@@ -91,10 +86,33 @@
   </div> <!--column-->
   </div><!--row-->
 </div><!--recent container-->
+
+
+<div class="collections">
+<div class="row">
+  <div class="col-md-8">
+    <h2>Collections</h2>
+<div class="row">
+    <section class="col-md-4">
+    <h2>Featured Documents</h2>
+    </section>
+
+  <section class="col-md-4">
+    <h2>Featured Documents</h2>
+  </section>
+
+<section class="col-md-4">
+  <h2>Featured Documents</h2>
+</section>
+</div>
+</div>
+</div>
+</div>
 </div><!--column search and recent-->
 
+
 <!--Toolkits-->
-<div class="toolkit container">
+<div class="toolkit">
   <div class="col-md-offset-2" "col-md-2" "col-lg-2">
   <h2>Toolkits</h2>
     <div class="row">
@@ -115,32 +133,10 @@
 </div><!--row-->
 </div><!--column toolkit-->
 </div><!--toolkit container-->
-</div> <!--row of search and toolkit-->
-
-<!--Collections-->
-  <div class="collections">
-  <div class="row">
-    <div class="col-md-8">
-      <h2>Collections</h2>
-  <div class="row">
-      <section class="col-md-4">
-      <h2>Featured Documents</h2>
-      </section>
-
-    <section class="col-md-4">
-      <h2>Featured Documents</h2>
-    </section>
-
-  <section class="col-md-4">
-    <h2>Featured Documents</h2>
-  </section>
-</div>
-</div>
-</div>
-</div>
 
 
-</div>
+</div> <!--content row-->
+</section> <!--content container-->
 
 
 </body>
