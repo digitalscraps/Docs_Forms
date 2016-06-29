@@ -1,47 +1,54 @@
-.globalheader {
+#globalheader {
   background-color: gray;
   text-align: center;
 }
 
-.globalnav{
+#globalnav{
 background-color: darkgray;
 }
 
-.layout {
-  font-family: monospace;
+header {
+  margin: 50px;
 }
 
-.breadcrumbs {
-background-color: lightblue;
+#title {
+border: 1px solid black;
 }
 
-.title {
-background-color: lightpink;
+#navbuttons {
+  padding: 10px;
+  margin:  25px;
 }
 
-.search {
-background-color: lightyellow;
+#search {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid black;
 }
 
-.collections {
-background-color: lightblue;
+#recent {
+  background-color: darkgray;
+  min-height: 300px;
 }
 
-.collections section {
-  background-color: lightgray;
-  text-align: center;
+#collections {
+  margin-top:25px;
+  margin-bottom:25px;
+  background-color: darkgray;
+  min-height: 300px;
 }
 
-.toolkit {
-background-color: lavender;
-min-height: 200px;
+featured {
+  background-color:lightgray;
 }
-
-.toolkit section {
+#toolkits {
   background-color: lightgray;
   text-align: left;
 }
 
-.tkimage {
-  max width: 200px;
+footer {
+  background-color: darkgray;
+  text-align: center;
+  margin-top: 50px;
 }

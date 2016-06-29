@@ -11,10 +11,10 @@
 <body>
 
 <!--Global Header-->
-<header class="container-fluid" id="globalheader">
+<div class="container-fluid" id="globalheader">
       <h2>Intranet</h2>
       <h1>Logo</h1>
-</header>
+</div>
 
 <!--Global NavBar-->
 <div class="container-fluid" id="globalnav">
@@ -33,13 +33,17 @@
   </div>
 
 <!--Title-->
-<div class="title container">
-    <div class="row">
-      <header class="col-md-12" id="title">
+<header class="title container">
+  <div class="row">
+  <div class="col-sm-12 col-md-12 col-lg-12" id="title">
+  <div class="row">
+      <div class="col-md-8">
         <h1>Docs and Forms Page</h1>
-      </header>
-    </div> <!--row-->
-      <div class="row">
+      </div>
+  </div>
+
+  <div class="nav button row"
+      <section class="col-sm-offset-3 col-md-offest-1 col-lg-offset-1" id=navbuttons>
       <button class="col-md-3" id="collectionsnav">
         <p>Collections</p>
       </button>
@@ -52,45 +56,51 @@
       <button class="col-md-3" id="uploadnav">
         <p>Upload</p>
       </button>
-  </div><!--row title-->
-</div> <!--container title-->
+    </section>
+  </div>
+</div><!--column title-->
+</div> <!--row title-->
+</header><!--container title-->
 
 <!--Begin Two Coloumn Layout-->
 
 <section class="content container">
   <div class="row">
-    <div class="col-md-8 col-lg-8">
+    <div class="col-sm-8 col-md-8 col-lg-8">
 
-<!--Search and Upload-->
-	<section class="col-md-12">
-	<div class="col-md-4">
-    	<h4>Search</h4>
-    </div>
-    <button class="col-md-4 col-lg-4" id="filter1">
-      <p>filter</p>
-    </button>
-    <button class="col-md-4 col-lg-4" id="filter2">
-      <p>filter</p>
-    </button>
-    </section>
+<!--Search-->
+	       <section class="row" id="search">
+	          <div class="col-sm-4 col-md-4 col-lg-4">
+    	         <h4 style="border-bottom:1px solid black">Search</h4>
+             </div>
+             <button class="col-sm-4 col-md-4 col-lg-4" id="filter1">
+               <p>filter</p>
+             </button>
+             <button class="col-sm-4 col-md-4 col-lg-4" id="filter2">
+               <p>filter</p>
+            </button>
+        </section>
 
 
 
 <!--Recently Added-->
+<div class="row">
 <div class="col-md-12" id="recent">
       <p>Lorem ipsum dolor sit amet, mea id possit epicuri abhorreant, equidem nominati est cu, eum legere volumus an. Cum cu rebum doming constituam, nostro voluptatum vim id,
       alterum explicari vituperata eum in. Ad interesset interpretaris nam, numquam scriptorem id per. His ad tation libris, inani laudem dicunt mei eu. Ad qui vero tation,
       delenit accusata repudiandae ne cum. Labore option efficiendi eu mei, ut est latine facilis habemus. Ius dicit soleat docendi id, id qui mutat noluisse tractatos.
       Est reque error id. No eum sale maluisset urbanitas, tollit albucius lobortis nam et. Cibo etiam deseruisse qui eu.</p>
-  </div> <!--column recent -->
+</div> <!--column recent -->
+</div> <!--row recent-->
 
 <!--Collections-->
 
+<div class="row">
 <div class="col-md-12" id="collections">
 <div class="row">
-<h2>Collections</h2>
+<h2 style="text-align:center">Collections</h2>
 <div class="row">
-    <section class="col-md-4" id="featured1">
+    <section class="featured col-md-4" id="featured1">
     <h4>Featured Documents</h4>
     </section>
 
@@ -104,6 +114,7 @@
 </div> <!--row featured-->
 </div> <!--row collections-->
 </div> <!--column collection -->
+</div><!--row collection-->
 
 
 </div><!--column search, feature, collections-->
@@ -130,6 +141,12 @@
  </div>
 </div>
 </section>
+
+<!--Footer-->
+<footer class="container-fluid">
+  <h3>Footer</h3>
+  <p>Footer Information and Site Map</p>
+</footer>
 
 
 </body>
