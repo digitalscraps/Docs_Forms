@@ -1,0 +1,59 @@
+#globalheader {
+  background-color: gray;
+  text-align: center;
+}
+
+#globalnav{
+background-color: darkgray;
+}
+
+header {
+  margin: 50px;
+}
+
+#title {
+border: 1px solid black;
+}
+
+#titlephrase {
+  margin-left: 30px;
+}
+
+#navbuttons {
+  padding: 10px;
+  margin:  25px;
+}
+
+#search {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid black;
+}
+
+#recent {
+  background-color: darkgray;
+  min-height: 300px;
+}
+
+#collections {
+  margin-top:25px;
+  margin-bottom:25px;
+  background-color: darkgray;
+  min-height: 300px;
+}
+
+featured {
+  background-color:lightgray;
+}
+#toolkits {
+  background-color: lightgray;
+  text-align: left;
+  min-height: 600px;
+}
+
+footer {
+  background-color: darkgray;
+  text-align: center;
+  margin-top: 50px;
+}
