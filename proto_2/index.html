@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Intranet</title>
+  <title>Prototype 2</title>
+
+  <style>
+
+
+  </style>
 </head>
 <body>
 
@@ -14,33 +20,26 @@
 <div class="container-fluid" id="globalheader">
       <h2>Intranet</h2>
       <h1>Logo</h1>
-</div>
-
-<!--Global NavBar-->
-<div class="container-fluid" id="globalnav">
   <div class= "row">
   <div class="col-md-12">
-      <div class="navlist">
-          <li>
-            <ul>nav1</ul>
-            <ul>nav1</ul>
-            <ul>nav1</ul>
-            <ul>nav1</ul>
-          </li>
-      </div>
+    <button class="col-sm-12 col-md-6 col-lg-3" style="background-color: #3d3d3d;" id="navlist">Button</button>
+    <button class="col-sm-12 col-md-6 col-lg-3" style="background-color: #3d3d3d;" id="navlist">Button</button>
+    <button class="col-sm-12 col-md-6 col-lg-3" style="background-color: #3d3d3d;" id="navlist">Button</button>
+    <button class="col-sm-12 col-md-6 col-lg-3" style="background-color: #3d3d3d;" id="navlist">Button</button>
   </div>
   </div>
   </div>
 
-<!--Title-->
-<header class="container-fluid">
+<!--Upload-->
+<header class="container">
   <div class="row">
-      <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" id=navbuttons>
-      <button class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-        <p>Upload</p>
-      </button>
-    </div>
-</div> <!--row title-->
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="upload">
+    <a href='#' class="uploadtext">
+      <i class="glyphicon glyphicon-file" style="font-size 3em;"></i>
+      <span>Upload Documents</span>
+    </a>
+</div>
+</div> <!--row upload-->
 </header><!--container title-->
 
 <!--Begin Two Coloumn Layout-->
@@ -50,17 +49,17 @@
     <div class="col-sm-8 col-md-8 col-lg-8">
 
 <!--Search-->
-	       <section class="row" id="search">
-	          <div class="col-sm-4 col-md-4 col-lg-4">
-    	         <h4 style="border-bottom:1px solid black">Search</h4>
-             </div>
-             <button class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="filter1">
-               <p>filter</p>
-             </button>
-             <button class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="filter2">
-               <p>filter</p>
-            </button>
-        </section>
+	<section class="row">
+    <a class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="filter">
+      <p>Keyword</p>
+    </a>
+    <a class="col-xs-12 col-sm-4 col-md-4 col-lg-4"id="filter">
+       <p>Author</p>
+     </a>
+     <a class="col-xs-12 col-sm-4 col-md-4 col-lg-4"id="filter">
+       <p>Department</p>
+      <a>
+  </section>
 
 
 
