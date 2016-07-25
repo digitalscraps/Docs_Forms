@@ -12,6 +12,7 @@
   <style>
 
 
+
   </style>
 </head>
 <body>
@@ -33,34 +34,36 @@
 <!--Upload-->
 <header class="container">
   <div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" id="upload">
-    <a href='#' class="uploadtext">
-      <i class="glyphicon glyphicon-file" style="font-size 3em;"></i>
-      <span>Upload Documents</span>
+    <a href='#' class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-offset-0 col-md-8 col-lg-offset-0 col-lg-8" id="upload" style="text-decoration:none;">
+        <div class="uploadtext">
+          <i class="glyphicon glyphicon-file" style="text-decoration:none;font-size:2em;"></i>
+          <span>Upload Documents<span>
+        </div>
     </a>
-</div>
 </div> <!--row upload-->
 </header><!--container title-->
 
 <!--Begin Two Coloumn Layout-->
 
-<div class="content container">
+<div class="container">
   <div class="row">
-    <div class="col-sm-8 col-md-8 col-lg-8">
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-8 col-lg-offset-0 col-lg-8">
 
-<!--Search-->
+<!--Filter-->
 	<section class="row">
-    <a class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="filter">
-      <p>Keyword</p>
-    </a>
-    <a class="col-xs-12 col-sm-4 col-md-4 col-lg-4"id="filter">
-       <p>Author</p>
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-12 col-lg-offset-0 col-lg-12" id="docs">
+      <h2 style="margin-top:20px;text-align:left;">Recently Added Documents</h2>
+      <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3" id="filter">
+        <p>Keyword</p>
+      </a>
+      <a class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3"id="filter">
+        <p>Author</p>
+      </a>
+      <a class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3"id="filter">
+        <p>Department</p>
      </a>
-     <a class="col-xs-12 col-sm-4 col-md-4 col-lg-4"id="filter">
-       <p>Department</p>
-      <a>
+   </div>
   </section>
-
 
 
 <!--Recently Added-->
@@ -73,59 +76,69 @@
 </div> <!--column recent -->
 </section> <!--row recent-->
 
+<section class="row">
+  <div class="col-md-12" style="min-height:50px;"></div>
+
 <!--Collections-->
 
 <section class="row">
-<div class="col-md-12" id="collections">
-<h2 style="text-align:center">Collections</h2>
+<div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-12 col-lg-offset-0 col-lg-12" id="collections">
+  <h2 class="collectiontext">Collections</h2>
 <div class="row">
-      <div class="featured col-md-4" id="featured1">
+      <a href="#" class="col-xs-12 col-sm-4 col-md-4" id="photo">
+        <img src="images/photo-collection.jpg" style="min-width:5%;min-height:10%;border:0;">
         <h4>Featured Documents</h4>
-      </div>
+      </a>
 
-      <div class="col-md-4" id="featured2">
+      <a href="#" class="col-xs-12 col-sm-4 col-md-4" id="video">
+        <img src="images/photo-collection.jpg" style="min-width:5%;min-height:10%;border:0;">
         <h4>Featured Documents</h4>
-      </div>
+      </a>
 
-      <div class="col-md-4" id="featured3">
-          <h4>Featured Documents</h4>
-      </div>
+      <a href="#" class="col-xs-12 col-sm-4 col-md-4" id="links">
+        <img src="images/photo-collection.jpg" style="min-width:5%;min-height:10%;border:0;">
+        <h4>Featured Documents</h4>
+      </a>
+
 </div> <!--row featured-->
 </div> <!--column collection -->
 </section><!--row collection-->
 
-
-</div><!--column search, recent, collections-->
+</div> <!--column search, recent, collections-->
 
 <!--Toolkits-->
-  <section class="col-sm-offset-1 col-sm-3 col-md-offset-1 col-md-3 col-lg-3" id="toolkits">
-  <h2>Toolkits</h2>
+  <section class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3" style="min-height:300px;text-align:center;">
     <div class="row">
-      <section class="col-md-12">
-          <h3>Toolkit1</h3>
-          <p>Learn how to make webpages and other content for the OU web services team!</p>
-      </section>
+        <h2 style="text-align:center;">Toolkits</h2>
 
-      <section class="col-md-12">
-          <h3>Toolkit2</h3>
-          <p>How to teach a software carpentry class</p>
-      </section>
+        <a href="#" class="col-xs-12 col-sm-4 col-md-12">
+          <img src="images/photo-collection.jpg" style="min-width:auto;min-height:auto;border:4px solid #000;border-radius:25px;" id="toolkits">
+          <h4>Featured Documents</h4>
+        </a>
 
-      <section class="col-md-12">
-          <h3>Toolkit3</h3>
-          <p>How to log your hours for HR</p>
-      </section>
+        <a href="#" class="col-xs-12 col-sm-4 col-md-12">
+          <img src="images/photo-collection.jpg" style="min-width:5%;min-height:10%;border:4px solid #000;border-radius:25px;" id="toolkits">
+          <h4>Featured Documents</h4>
+        </a>
+
+        <a href="#" class="col-xs-12 col-sm-4 col-md-12">
+          <img src="images/photo-collection.jpg" style="min-width:5%;min-height:10%;border:4px solid #000;border-radius:25px" id="toolkits">
+          <h4>Featured Documents</h4>
+        </a>
   </div> <!--row indivdual toolkits-->
 </section> <!--column toolkits-->
+</div>
 </div> <!--row 2 column layout-->
-</div> <!--container 2 column layout-->
+<!--container 2 column layout-->
 
 <!--Footer-->
 <footer class="container-fluid">
+  <div class="row">
   <section class="col-sm-12 col-md-12 col-lg-12" id="footer">
       <h3>Footer</h3>
       <p>Footer Information and Site Map</p>
-  </section>
+    </section>
+  </div>
 </footer>
 
 
