@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://use.fontawesome.com/59e86e0655.js"></script>
   <title>Prototype 2</title>
 </head>
 <body>
@@ -28,13 +29,14 @@
 <!--Upload-->
 <header class="container">
   <div class="row">
-    <a href='#' class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-offset-0 col-md-8 col-lg-offset-0 col-lg-8"
-      id="upload" style="text-decoration:none;">
-        <div class="uploadtext">
-          <i class="glyphicon glyphicon-file" style="text-decoration:none;font-size:2em;"></i>
-          <span>Upload Documents<span>
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-offset-0 col-md-8 col-lg-offset-0 col-lg-8">
+    <a href='#' class="btn" id="upload">
+        <div class="uploadflex">
+          <i class="fa fa-file fa-2x" style="padding:0 5px;order:1;flex-shrink:1;"></i>
+          <span style="margin:30px 20px;order:2;">Upload Documents<span>
         </div>
     </a>
+</div>
 </div> <!--row upload-->
 </header><!--container title-->
 
@@ -45,20 +47,20 @@
     <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-8 col-lg-offset-0 col-lg-8">
 
 <!--Filter-->
-	<section class="row">
-    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-12 col-lg-offset-0 col-lg-12" id="docs">
+    <div>
       <h2 style="margin-top:20px;text-align:left;">Recently Added Documents</h2>
-      <a class="col-xs-12 col-sm-12 col-md-3 col-lg-3" id="filter">
+      <div class="filterflex">
+      <a href ="#" class="col-xs-12 col-sm-12 col-md-3 col-lg-3" id="filter">
         <p>Keyword</p>
       </a>
-      <a class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3"id="filter">
+      <a href="#" class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3"id="filter">
         <p>Author</p>
       </a>
-      <a class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3"id="filter">
+      <a href="#"class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3"id="filter">
         <p>Department</p>
      </a>
    </div>
-  </section>
+   </div>
 
 
 <!--Recently Added-->
@@ -71,33 +73,34 @@
 </div> <!--column recent -->
 </section> <!--row recent-->
 
-<section class="row">
-  <div class="col-md-12" style="min-height:50px;"></div> <!--added for visual break in layout-->
 
 <!--Collections-->
-
-<section class="row">
-<div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-12 col-lg-offset-0 col-lg-12" id="collections">
-  <h2 class="collectiontext">Collections</h2>
 <div class="row">
-      <a href="#" class="col-xs-12 col-sm-4 col-md-4" id="photo">
-        <img src="images/photo-collection.jpg" style="min-width:5%;min-height:10%;border:0;">
-        <h4>Featured Documents</h4>
-      </a>
-
-      <a href="#" class="col-xs-12 col-sm-4 col-md-4" id="video">
-        <img src="images/photo-collection.jpg" style="min-width:5%;min-height:10%;border:0;">
-        <h4>Featured Documents</h4>
-      </a>
-
-      <a href="#" class="col-xs-12 col-sm-4 col-md-4" id="links">
-        <img src="images/photo-collection.jpg" style="min-width:5%;min-height:10%;border:0;">
-        <h4>Featured Documents</h4>
-      </a>
-
-</div> <!--row featured-->
-</div> <!--column collection -->
-</section><!--row collection-->
+  <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-12 col-lg-offset-0 col-lg-12">
+    <h2 class="collectiontext">Collections</h2>
+      <ul class="grid">
+        <li>
+        <a href="#">
+          <i class="fa fa-camera fa-2x"></i>
+          <h3 class="cbp-ig-title">Squid voluptate</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-video-camera fa-2x"></i>
+          <h3 class="cbp-ig-title">Mixtape lo-fi</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-external-link-square fa-2x"></i>
+          <h3 class="cbp-ig-title">Mixtape lo-fi</h3>
+        </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</div>
 
 </div> <!--column search, recent, collections-->
 
@@ -141,4 +144,5 @@
 <script src="js/jquery-2.2.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/modernizr.custom.js"></script>
 </html>
